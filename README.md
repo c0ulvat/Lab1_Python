@@ -20,12 +20,14 @@ Bu layihə server loglarını təhlil etmək, mümkün təhlükəsizlik təhdidl
 
 Tələb olunan asılılıqları quraşdırmaq üçün:
 
-```bash
+```
 pip install selenium
+```
 
-İstifadə
+## İstifadə
 
 1-ci Addım: Repository-ni Klonlayın
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+```
+
+```
