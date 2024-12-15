@@ -26,15 +26,24 @@ Skript aşağıdakı addımları yerinə yetirir:
 
 ## İstifadə
 
-1. **Lokal Veb Serveri Başladın:** Təhdid kəşfiyyatı funksiyasını istifadə etmək üçün index.html faylını lokal HTTP portunda işlədin. Python-un daxili HTTP serverindən istifadə edə bilərsiniz:
+1. **Yeni bir python VirtualEnv yaradin:**
+   ```
+   python -m venv MyVenv
+   ```
+2. **Yüklədiyiniz Git-i VirtualEnv(MyEnv) ilə eyni Directory-də saxlayın**
+3. **VirtualEnv daxil olun:**
+   ```
+   source MyVenv/bin/activate
+   ```
+4. **Lokal Veb Serveri Başladın:** Təhdid kəşfiyyatı funksiyasını istifadə etmək üçün index.html faylını lokal HTTP portunda işlədin. Python-un daxili HTTP serverindən istifadə edə bilərsiniz:
    ```
    python -m http.server 8000
    ```
-2. **Lazımlı kitabxanaları quraşdırın:**
+5. **Lazımlı kitabxanaları quraşdırın:**
    ```
    pip install selenium
    ```
-3. **Skripti işə salın:**
+6. **Skripti işə salın:**
    ```
    python testmeh.py
    ```
