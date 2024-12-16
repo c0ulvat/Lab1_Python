@@ -143,7 +143,7 @@ def main():
     write_to_csv(parsed_data)
 
     # Təhlükə məlumatlarını əldə etmək
-    threat_intelligence_url = "http://127.0.0.1:8000/"
+    threat_intelligence_url = "http://127.0.0.1:8000/index.html"
     threat_ips = scrape_threat_intelligence(threat_intelligence_url)
 
     # Girişləri təhlükə məlumatları ilə uyğunlaşdırmaq
